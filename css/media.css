@@ -1,0 +1,142 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header:before{
+		top: 70%;
+	}
+	header:after{
+		top: 80%;
+	}
+	footer{
+		top: 660px;
+	}
+	.banner img{
+		display: block;
+		margin: 20px auto;
+	}
+	.form{
+		left: 50%;
+		margin-left: -145px;
+	}
+	.offers{
+		margin-top: 0;
+	}
+	.footer-top .social,
+	.footer-top .contact-us,
+	.footer-top .contact-form{
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 920px) {
+	.navbar ul li{
+		margin-left: 5px;
+	}
+	.navbar ul li a{
+		font-size: 13px;
+	}
+	
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	section{
+		margin-top: 700px;
+		height: 1300px;
+	}
+	.side{
+		margin-top: 0;
+	}
+	footer{
+		margin-top: -670px;
+	}
+}
+@media only screen and (max-width : 600px) {
+	header:before{
+		top: 60%;
+	}
+	header:after{
+		top: 70%;
+	}
+	footer{
+		top: 660px;
+	}
+}
+@media only screen and (max-width : 582px) {
+	footer{
+		top: 705px;
+	}
+}
+@media only screen and (max-width : 540px) {
+	div.tab:before{
+		display: none;
+	}
+	div.tab:after{
+		display: none;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header:before{
+		top: 50%;
+	}
+	header:after{
+		top: 65%;
+	}
+	footer{
+		top: 750px;
+	}
+	.offers{
+		margin-top: -150px;
+	}
+}
+@media only screen and (max-width : 425px) {
+	.navbar-brand img{
+		width: 70%;
+		margin-top: -70px;
+	}
+	.special-offer span{
+		margin-left: 30%;
+	}
+	.main{
+		text-align: center;
+	}
+	section{
+		margin-top: 750px;
+		height: 2600px;
+	}
+	footer{
+		margin-top: -750px;
+	}
+
+}
+@media only screen and (max-width : 414px) {
+	.navbar-brand img{
+		width: 70%;
+		margin-top: -25px;
+	}
+}
+
+@media only screen and (max-width : 375px) {
+	.navbar-brand img{
+		width: 70%;
+		margin-top: -70px;
+	}
+}
+@media only screen and (max-width : 360px) {
+	section{
+		height: 2800px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	section{
+		margin-top: 850px;
+		height: 2720px;
+	}
+	footer{
+		margin-top: -750px;
+	}
+}

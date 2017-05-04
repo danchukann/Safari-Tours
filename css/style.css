@@ -1,0 +1,637 @@
+@font-face {
+	font-family: "ColabReg";
+	src: url("../fonts/ColabReg.eot");
+	src: url("../fonts/ColabReg.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ColabReg.woff") format("woff"),
+			 url("../fonts/ColabReg.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ColabThi";
+	src: url("../fonts/ColabThi.eot");
+	src: url("../fonts/ColabThi.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ColabThi.woff") format("woff"),
+			 url("../fonts/ColabThi.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ColabMed";
+	src: url("../fonts/ColabMed.eot");
+	src: url("../fonts/ColabMed.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ColabMed.woff") format("woff"),
+			 url("../fonts/ColabMed.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "agsouvenir_regular";
+	src: url("../fonts/agsouvenir_regular.eot");
+	src: url("../fonts/agsouvenir_regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/agsouvenir_regular.woff") format("woff"),
+			 url("../fonts/agsouvenir_regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ag_letterica_bold";
+	src: url("../fonts/ag_letterica_bold.eot");
+	src: url("../fonts/ag_letterica_bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ag_letterica_bold.woff") format("woff"),
+			 url("../fonts/ag_letterica_bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "AG Foreigner Roman Medium";
+	src: url("../fonts/AG Foreigner Roman Medium.eot");
+	src: url("../fonts/AG Foreigner Roman Medium.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/AG Foreigner Roman Medium.woff") format("woff"),
+			 url("../fonts/AG Foreigner Roman Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ABodoniNovaNrItalic";
+	src: url("../fonts/ABodoniNovaNrItalic.eot");
+	src: url("../fonts/ABodoniNovaNrItalic.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ABodoniNovaNrItalic.woff") format("woff"),
+			 url("../fonts/ABodoniNovaNrItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "AGBenguiatCyr";
+	src: url("../fonts/AGBenguiatCyr.eot");
+	src: url("../fonts/AGBenguiatCyr.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/AGBenguiatCyr.woff") format("woff"),
+			 url("../fonts/AGBenguiatCyr.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "a1010helvetika_normal";
+	src: url("../fonts/a1010helvetika_normal.eot");
+	src: url("../fonts/a1010helvetika_normal.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/a1010helvetika_normal.woff") format("woff"),
+			 url("../fonts/a1010helvetika_normal.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Copse-Regular";
+	src: url("../fonts/Copse-Regular.eot");
+	src: url("../fonts/Copse-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Copse-Regular.woff") format("woff"),
+			 url("../fonts/Copse-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MyriadPro-Semibold";
+	src: url("../fonts/MyriadPro-Semibold.eot");
+	src: url("../fonts/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MyriadPro-Semibold.woff") format("woff"),
+			 url("../fonts/MyriadPro-Semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+* { 
+	margin:0; 
+	padding:0; 
+} 
+html, body, .wrapper { 
+	height: 100%; 
+
+}
+body{
+	overflow-x:hidden;
+}
+body > .wrapper {
+	height: auto; 
+	min-height: 100%;
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+} 
+.container{
+	max-width: 1024px;
+	width: 100%;
+}
+footer { 
+    position: relative;
+	min-height: 320px;
+	clear:both;
+	background-color: #1483ab;
+	max-width: 1280px;
+	width: 100%;
+	bottom: 0;
+	margin: 0 auto;
+} 
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { 
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+body{
+	font-family: "ColabReg";
+	font-size: 15px;
+	line-height: 30px;
+	color: #000;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style-type: none;
+}
+header{
+	background-color: #d6e6ef;
+	min-height: 880px;
+	height: auto;
+	position: relative;
+}
+.navbar{
+	background-image: url(../img/bg-nav.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 85px;
+	}
+.navbar-brand img{
+	margin-left: 28px;
+	margin-top: -20px;
+	max-width: 278px;
+	width: 100%;
+}
+.navbar ul li a{
+	font-family: "agsouvenir_regular";
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 17px;
+}
+.navbar ul li{
+	margin-left: 25px;
+}
+.navbar button[type=button]{
+	border: 2px solid #fff;
+	margin-top: 10px;
+}
+.navbar button span{
+	border: 1px solid #fff;
+}
+.banner img{
+	margin: 30px;
+	max-width: 650px;
+	width: 100%;
+}
+.form{
+	max-width: 330px;
+	height: 430px;
+	background-color: #299fca;
+	z-index: 10;
+	position: absolute;
+	margin-left: 50px;
+	border-radius: 20px;
+	border: 5px solid #7ebee0;
+}
+header:before{
+	content: " ";
+	background-image: url(../img/cloud-2.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	max-width: 1280px;
+	width: 100%;
+	min-height: 560px;
+	height: auto;
+	z-index: 1;
+	position: absolute;
+	bottom: 0;
+}
+header:after{
+	content: " ";
+	background-image: url(../img/cloud-1.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	max-width: 1280px;
+	width: 100%;
+	min-height: 494px;
+	height: auto;
+	z-index: 100;
+	position: absolute;
+	bottom: 0;
+}
+.online-form:before{
+	content: "Online Booking";
+	background-image: url(../img/online-booking.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 236px;
+	height: 49px;
+	z-index: 150;
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 20px;
+	font-family: "ag_letterica_bold";
+	font-weight: bold;
+	color: #fff;
+	font-size: 21px;
+	padding: 7px 20px;
+}
+.online-form:after{
+	content: " ";
+	background-image: url(../img/ladder.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 62px;
+	height: 154px;
+	z-index: 200;
+	position: absolute;
+	bottom: 0;
+	margin-left: 30px;
+}
+.form{
+	width: 340px;
+	width: 95%;
+	margin-left: 20px;
+}
+.form-data{
+	padding-top: 80px;
+	width: 280px;
+}
+.form-data input,
+.form-data textarea,
+.form-data select{
+	width: 170px;
+	float: right;
+	border: 3px solid #a7d1e6;
+	border-radius: 10px;
+}
+.form-data select{
+	height: 36px;
+	font-family: "AG Foreigner Roman Medium";
+	color: #299fca;
+	font-size: 15px;
+	padding-left: 5px;
+	text-transform: capitalize;
+}
+.form-data label{
+	text-align: right;
+	border: 1px solid transparent;
+	width: 100px;
+	color: #fff;
+	font-family: "ag_letterica_bold";
+	margin-bottom: 5px;
+}
+.form-data input[type=submit]{
+	background: #e5db10; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e5db10, #fff203); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e5db10, #fff203); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e5db10, #fff203); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e5db10, #fff203); /* Standard syntax */
+	color: #299fca;
+	border: 3px solid #efe50b;
+	text-transform: capitalize;
+	font-family: "ag_letterica_bold";
+	width: 100px;
+	float: right;
+	margin-top: 5px;
+	padding: 5px 15px;
+}
+.offers{
+	min-height: 370px;
+	height: auto;
+	max-width: 1280px;
+	width: 100%;
+	background-color: #127ea5;
+	margin-top: -300px;
+	z-index: 250;
+	position: absolute;
+}
+.special-offer{
+	max-width: 400px;
+	margin: 0 auto;
+}
+.special-offer h3{
+	font-family: "ABodoniNovaNrItalic";
+	font-size: 29px;
+	line-height: 52px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.special-offer img{
+	float: left;
+}
+.special-offer h4{
+	font-family: "ColabMed";
+	font-size: 17px;
+	color: #fff;
+	padding-left: 100px;
+}
+.special-offer p{
+	font-family: "ColabThi";
+	font-size: 15px;
+	line-height: 20px;
+	color: #fff;
+	padding-left: 100px;
+}
+.special-offer span{
+	font-family: "AGBenguiatCyr";
+	font-size: 27px;
+	line-height: 52px;
+	color: #fff;
+	margin-left: 50%;
+}
+.special-offer input[type=submit]{
+	background: #e5db10; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e5db10, #fff203); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e5db10, #fff203); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e5db10, #fff203); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e5db10, #fff203); /* Standard syntax */
+	color: #299fca;
+	border: 3px solid #efe50b;
+	text-transform: capitalize;
+	font-family: "ag_letterica_bold";
+	border-radius: 5px;
+	float: right;
+	margin-top: 5px;
+	padding: 5px 15px;
+}
+.offer-item hr{
+	border: 1px dotted white;
+	padding: 0;
+	margin: 5px;
+}
+.offer-tabs{
+	max-width: 610px;
+	margin: 70px auto;
+	width: 100%;
+	display: block;
+}
+div.tab {
+    overflow: hidden;
+    background-color: transparent;
+}
+div.tab:before{
+	content: " ";
+	background-image: url(../img/Special-Summer.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 146px;
+	height: 95px;
+	z-index: 150;
+	position: absolute;
+	margin-left: 60%;
+	margin-top: -65px;
+}
+div.tab:after{
+	content: "Offer";
+	background-image: url(../img/Offer.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 71px;
+	height: 45px;
+	z-index: 170;
+	position: absolute;
+	margin-left: 45%;
+	margin-top: -15px;
+	font-family: "Copse-Regular";
+	font-size: 16px;
+	line-height: 23px;
+	color: #fff;
+	padding: 15px;
+}
+
+div.tab button {
+	font-family: "a1010helvetika_normal";
+	font-size: 15px;
+	text-transform: uppercase;
+    background-color: #299fca;
+    color: #81ffff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 16px;
+    transition: 0.3s;
+    margin-right: 10px;
+    border-radius: 5px 5px 0 0;
+}
+div.tab button.active,
+div.tab button:hover {
+    background-color: #81ffff;
+    color: #299fca;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: 1px solid #81ffff;
+}
+.tabs-table{
+	display: table;
+}
+.tabs-row{
+	display: table-row;
+}
+.tabs-cell{
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+}
+.tabs-row img{
+	margin-top: -3px;
+}
+.tabs-row .content,
+.tabs-row .days,
+.tabs-row .details a{
+	font-family: "ColabThi";
+	font-size: 16px;
+	line-height: 22px;
+	padding: 5px 10px;
+	color: #fff;
+}
+.footer-top .social,
+.footer-top .contact-us,
+.footer-top .contact-form{
+	max-width: 320px;
+	display: block;
+	margin: 20px auto;
+	
+}
+.footer-top h3{
+	font-family: "ColabThi";
+	font-size: 25px;
+	line-height: 52px;
+	color: #fff;
+	text-shadow: 2px 2px 3px #0f6f92;
+}
+.footer-top input{
+	background-color: #0f6686;
+	font-family: "ColabThi";
+	font-size: 14px;
+	line-height: 17px;
+	padding: 7px 10px;
+	border-radius: 5px;
+	border: 1px solid #0f6686;
+	box-shadow: inset 0px 0px 5px 0px #0d4255;
+	-webkit-box-shadow: inset 0px 0px 5px 0px #0d4255;
+	-moz-box-shadow: inset 0px 0px 5px 0px #0d4255;
+	-o-box-shadow: inset 0px 0px 5px 0px #0d4255;
+	margin-bottom: 5px;
+}
+.footer-top button{
+	background-color: #d6e6ef;
+	color: #1380a7;
+	font-family: "ColabReg";
+	font-size: 16px;
+	line-height: 18px;
+}
+.footer-top h3{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.social ul li{
+	display: inline-block;
+}
+.social button{
+	margin-top: -4px;
+}
+.footer-top p{
+	font-family: "ColabThi";
+	font-size: 14px;
+	line-height: 17px;
+	color: #fff;
+}
+.footer-top .info{
+	padding-left: 35px;
+}
+.footer-top .fax{
+	padding-left: 13px;
+}
+.footer-form input{
+	margin-bottom: 5px;
+}
+.footer-form textarea{
+	width: 285px;
+	height: 60px;
+	background-color: #0f6686;
+	font-family: "ColabThi";
+	font-size: 14px;
+	line-height: 17px;
+	padding: 7px 10px;
+	border-radius: 5px;
+	border: 1px solid #0f6686;
+	box-shadow: inset 0px 0px 5px 0px #0d4255;
+	-webkit-box-shadow: inset 0px 0px 5px 0px #0d4255;
+	-moz-box-shadow: inset 0px 0px 5px 0px #0d4255;
+	-o-box-shadow: inset 0px 0px 5px 0px #0d4255;
+}
+.footer-form button{
+	float: right;
+	margin-right: 23px;
+}
+.footer-bottom{
+	max-width: 700px;
+	margin: 50px auto;
+	text-align: center;
+	font-family: "ColabThi";
+	font-size: 14px;
+	line-height: 27px;
+	color: #fff;
+}
+.main{
+	padding-top: 44px;
+	margin-top: 140px;
+}
+.side{
+	height: 100px;
+	margin-top: 175px;
+	background-color: #d6e6ef;
+}
+section{
+	background-color: #d6e6ef;
+	height: auto;
+}
+section .main-item h3{
+	font-family: "ABodoniNovaNrItalic";
+	font-size: 21px;
+	line-height: 52px;
+	color: #959595;
+	padding: 0;
+	margin: 0;
+}
+section .main-item p{
+	font-family: "ColabThi";
+	font-size: 15px;
+	line-height: 20px;
+	color: #737070;
+}
+section .main-item input[type=submit]{
+	font-family: "ag_letterica_bold";
+	font-size: 15px;
+	line-height: 32px;
+	color: #fff;
+	background: #127ea5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#127ea5, #1ca7d9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#127ea5, #1ca7d9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#127ea5, #1ca7d9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#127ea5, #1ca7d9); /* Standard syntax */
+    border-radius: 5px;
+    padding: 0 15px;
+    border: 1px solid #127ea5;
+    margin-bottom: 44px;
+}
+section .side .destinations{
+	width: 235px;
+	height: 320px;
+	background-color: #127ea5;
+	margin: 0 auto;
+	position: relative;
+
+}
+section .side .destinations:after{
+	content: "destinations";
+	background-image: url(../img/ribbon.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 240px;
+	height: 57px;
+	z-index: 180;
+	position: absolute;
+	margin-top: -280px;
+	margin-left: -13px;
+	font-family: "MyriadPro-Semibold";
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #34abd6;
+	padding: 10px 20px;
+	
+}
+section .side .destinations ul{
+	padding-top: 50px;
+}
+section .side .destinations ul li a{
+	font-family: "ColabThi";
+	font-size: 15px;
+	line-height: 28px;
+	color: #fff;
+	padding-left: 30px;
+}
